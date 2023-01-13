@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441B735E2970AD3D00434F1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B735D2970AD3D00434F1E /* ViewController.swift */; };
+		441B73602970C65000434F1E /* CallKitManagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441B735F2970C65000434F1E /* CallKitManagerController.swift */; };
 		7F3DCEA32966B4EF0010179E /* SwiftUI_CallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3DCEA22966B4EF0010179E /* SwiftUI_CallApp.swift */; };
 		7F3DCEA52966B4EF0010179E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3DCEA42966B4EF0010179E /* ContentView.swift */; };
 		7F3DCEA72966B4F10010179E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3DCEA62966B4F10010179E /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 
 /* Begin PBXFileReference section */
 		441B735A296FB2D600434F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		441B735D2970AD3D00434F1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		441B735F2970C65000434F1E /* CallKitManagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitManagerController.swift; sourceTree = "<group>"; };
 		7F3DCE9F2966B4EF0010179E /* SwiftUI-Call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3DCEA22966B4EF0010179E /* SwiftUI_CallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CallApp.swift; sourceTree = "<group>"; };
 		7F3DCEA42966B4EF0010179E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				441B735A296FB2D600434F1E /* Info.plist */,
 				7F3DCEA22966B4EF0010179E /* SwiftUI_CallApp.swift */,
 				7F3DCEA42966B4EF0010179E /* ContentView.swift */,
+				441B735D2970AD3D00434F1E /* ViewController.swift */,
+				441B735F2970C65000434F1E /* CallKitManagerController.swift */,
 				7F3DCEA62966B4F10010179E /* Assets.xcassets */,
 				7F3DCEA82966B4F10010179E /* Preview Content */,
 			);
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441B735E2970AD3D00434F1E /* ViewController.swift in Sources */,
 				7F3DCEA52966B4EF0010179E /* ContentView.swift in Sources */,
 				7F3DCEA32966B4EF0010179E /* SwiftUI_CallApp.swift in Sources */,
+				441B73602970C65000434F1E /* CallKitManagerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
